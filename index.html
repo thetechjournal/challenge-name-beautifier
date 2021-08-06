@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Text Beautifier</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+           <div class="surprise-picker surprise-picker-visibility picker">
+                <div id="surprise-text"></div>
+                <button id="surpriseBtn">Surprise Me</button>
+           </div> 
+        </div>
+        <div class="right-panel">
+            <div class="text-display picker">
+                <p class="output-text" id="output-text">Pumpkin</p>
+                <input id="input-text" class="input-text" type="text" value="" placeholder="Please enter text here" ></input>
+           </div>   
+           <div class="color-picker picker">
+                <div class="colors">
+                    <label class="color" for="base">Text Color: </label><br/><br/>
+                    <input class="color" type="color" id="choose-text-color" name="base" value="#FFFFFF" /> <br />
+                    <label class="color" for="base2">Background Color:</label><br/><br/>
+                    <input class="color" type="color" id="choose-background-color" name="base2" value="#594F9D" /> <br />
+                </div>
+            </div>   
+           <div class="gradient-picker picker">
+            <div class="fonts">
+                <select class="input-text-font" name="fonts" id="input-text-font"></select>
+                <select class="input-text-style" name="weights" id="input-text-style"></select>  
+                <select class="input-text-size" name="size" id="input-text-size"></select>            
+            </div>
+           </div> 
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

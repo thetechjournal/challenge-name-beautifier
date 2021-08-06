@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 75, 75);
+    background: linear-gradient(304deg, #CB3493 0%, #1157A2 100%);
+    color: black;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.left-panel {
+    display: flex;
+    width: 90%;
+    min-height: 600px;
+    margin: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-panel {
+    width: 90%;
+    min-height: 500px;
+    background-color: #AED8E4;
+    border-radius: 50px;
+    margin-bottom: 1em;
+}
+
+.picker {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+.colors, .fonts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.font {
+   margin-top: 1.5em;
+}
+
+.color {
+    padding: 0.5em;   
+}
+
+.output-text {
+    font-size: 50px;
+    background-color: #594F9D;
+    color: white;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 50px;
+    padding: 1em;
+}
+
+.input-text {
+    width: 300px;
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+.input-text-font {
+    width: 280px;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.input-text-style, .input-text-size {
+    margin: 0.5em;
+    width: 100px;
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+textarea { 
+    width: 100%;
+    height: 100px;
+    background-color: white; 
+    scroll-behavior: contain;
+    text-align: left;
+
+}
+
+button {
+    padding: 0.5em 0.8em;
+    border: none;
+    font-size: 1.1rem;
+    background: lightblue;
+    border-radius: 999px;
+    width: 300px;
+    margin-top: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #594F9D;
+    font-weight: bold;
+}
+
+@media (min-width: 675px) {
+    body {
+        
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .colors, .fonts {
+        display: flex;
+        flex-direction: row;
+        
+    }
+   
+}
+
+
+
